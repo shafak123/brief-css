@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="sidebar">
+        <h2>CSS</h2>
+        <ul>
+            <li><a class="nav-item" href="#Introduction">Introduction</a></li>
+            <li>
+                <a class="nav-item" href="#Css_editors"> CSS Editors</a>
+            </li>
+            <li>
+                <a class="nav-item" href="#Css_elements"> CSS Elements</a>
+            </li>
+            <li><a class="nav-item" href="#Css_attributes"> CSS Attributes</a></li>
+            <li>
+                <a class="nav-item" href="#Css_text"> CSS Text</a>
+            </li>
+            <li><a class="nav-item" href="#Css_style">CSS Style</a></li>
+            <li><a class="nav-item" href="#Css_formatting"> CSS Formatting</a></li>
+            <li><a class="nav-item" href="#reference">Reference</a></li>
+        </ul>
+    </nav>
+    <main id="documentation">
+        <section id="Introduction">
+            <h2>Introduction</h2>
+            <article>
+                <p>
+                    CSS is the language we use to style a Web page
+                    CSS stands for Cascading Style Sheets
+                    CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+                    CSS saves a lot of work. It can control the layout of multiple web pages all at once
+                    External stylesheets are stored in CSS files
+
+                </p>
+                CSS Demo - One HTML Page - Multiple Styles!
+                Here we will show one HTML page displayed with four different stylesheets. Click on the "Stylesheet 1",
+                "Stylesheet 2", "Stylesheet 3", "Stylesheet 4" links below to see the different styles:
+            </article>
+        </section>
+        <section id="css_editors">
+            <h2>CSS Editors</h2>
+            <article>
+                <p>
+                    CSS (Cascading Style Sheet) describes the HTML elements which are displayed on screen, paper, or in
+                    other media. It saves a lot of time. It controls the layout of multiple web pages at one time. It
+                    sets the font-size, font-family, color, background color on the page.
+
+                    It allows us to add effects or animations to the website. We use CSS to display animations like
+                    buttons, effects, loaders or spinners, and also animated backgrounds.
+                </p>
+                <p>There are 3 types of CSS which are below:
+                    but mainly use a visual code editor
+                </p>
+
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Inline CSS</li>
+                    <li>Internal/ Embedded CSS</li>
+                    <li>External CSS</li>
+                </ul>
+            </article>
+        </section>
+        <section id="css_elements">
+            <h2>CSS Elements</h2>
+            <article>
+                <p>
+                    The element() CSS function defines an <image> value generated from an arbitrary HTML element. This
+                        image is live, meaning that if the HTML element is changed, the CSS properties using the
+                        resulting value are automatically updated
+                </p>
+                <pre>element(id)</pre>
+            </article>
+        </section>
+        <section id="css_attributes">
+            <h2>CSS Attributes</h2>
+            <article>
+                <p>
+                    The [attribute] selector is used to select elements with a specified attribute.
+                    The following example selects all <a> elements with a target attribute:
+                        <strong> Example </strong>
+                </p>
+                <pre> a[target] {
+                    background-color: yellow;
+                  }
+                </pre>
+            </article>
+        </section>
+
+        <section id="css_text">
+            <h2>CSS Text</h2>
+            <article>
+                <p>
+                    CSS has a lot of properties for formatting text.
+                    TEXT FORMATTING
+                    This text is styled with some of the text formatting properties. The heading uses the text-align,
+                    text-transform, and color properties. The paragraph is indented, aligned, and the space between
+                    characters is specified. The underline is removed from this colored "Try it Yourself" link.
+                </p>
+                <pre>
+                    body {
+                        color: blue;
+                      }
+                      
+                      h1 {
+                        color: green;
+                      }</pre>
+            </article>
+        </section>
+        <section id="css_style">
+            <h2>CSS Style</h2>
+            <article>
+                <p>
+                    CSS stands for Cascading Style Sheets.
+
+                    CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+                </p>
+                <pre>&lt;h1 style=color blue &lt;/h1&gt;
+  
+                  &lt;p style =color:red &lt;/p&gt;
+                  
+            </article>
+        </section>
+        <section id="css_formatting">
+            <h2>CSS Formatting</h2>
+            <article>
+                <p>
+                    The CSS text formatting properties are used to format text, style the text and perform different types of manipulations like word spacing, alignment, justification, and text transformation.
+                </p>
+                <div class="hscroll">
+                    <pre>
+                    <table>
+                        <tbody>
+
+                                <tr>
+                                    <td>
+                                    CSS FORMATE
+                                    </a>
+                                </td>
+                                <td>
+                                    Description
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                 Text Color:
+                                </td>
+                                <td>
+                                    This property is used to set the color of the text and the color can be set by using a color name like “red”, hex value “#ff0000”, or by its RGB value “rgb(255,0,0)”
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-align
+                                </td>
+                                <td>
+                                    This property in CSS is used to specify the horizontal alignment of text in an element inside a block element or table-cell box.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-align-last:
+                                </td>
+                                <td>
+                                    It is used to set the last line of the paragraph just before the line break. It sets the alignment of all the last lines occurring in the element in which the text-align-last property is applied
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-decoration:
+                                </td>
+                                <td>
+                                    text-decoration property is used to “decorate ” the content of the text.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-decoration-color:
+                                </td>
+                                <td>
+                                    It is used to set the color of the decorations (overlines, underlines, and line-throughs) over the text.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-decoration-line
+                                </td>
+                                <td>
+                                    It is used to set the various kinds of text decorations. this may include many values such as underline, overline, line-through, etc.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-decoration-style:
+                                </td>
+                                <td>
+                                    This property is used to set the text-decoration of the element. It is the combination of the text-decoration-line and text-decoration-color properties.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-indent:
+                                </td>
+                                <td>
+                                    It is used to indent the first line of the paragraph and the size can be in px, cm, pt.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-justify:
+                                </td>
+                                <td>
+                                    This property is used to set the text-align to justify. It spreads the words into complete lines.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-overflow:
+                                </td>
+                                <td>
+                                    This property of text formatting specify that some text has overflown and is hidden from the view
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-transform:
+                                </td>
+                                <td>
+                                    It is used to control the capitalization of the text.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    text-shadow:
+                                </td>
+                                <td>
+                                    it is used to add shadow to the text.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    letter-spacing: 
+                                </td>
+                                <td>
+                                    This property is used to specify the space between the characters of the text.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    line-height:
+                                </td>
+                                <td>
+                                    It is used to set the space between the lines.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    direction:
+                                </td>
+                                <td>
+                                    This property is used to set the direction of the text.
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    word-spacing: 
+                                </td>
+                                <td>
+                                    It is used to specify the space between the words of the line.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </pre>
+                </div>
+            </article>
+        </section>
+        
+        <section id="reference">
+            <h2>Reference</h2>
+            <article>
+                <ul>
+                    <li>
+                        All the documentation in this page is taken from my website.
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
